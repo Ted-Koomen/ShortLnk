@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Signup extends Component {
   render() {
     return ( 
-      <p>Signup component here</p>   
+        <div>
+            <Link to='/'>Have an account?</Link>
+        </div>
      )
   }
 }

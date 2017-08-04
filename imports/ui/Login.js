@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Login extends Component {
     render() {
         return (
-            <p>Login Component</p>
+            <div>
+                <h1>Login to Short Link</h1>
+
+                
+
+                <Link to="/signup">Don't have an account?</Link>
+            </div>
         )
     }
 }
