@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 
-export default class Link extends Component {
+class Link extends Component {
     render() {
         return (
             <p>Link Component</p>
         )
     }
 }
+
+export default Link
